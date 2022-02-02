@@ -34,6 +34,9 @@ Groupe constitué de :
 
 Lancez `jupyter notebook` pour exécuter le projet. 
 
+## Dataset generator
+
+https://www.mockaroo.com/cc3b3170
 
 ## Demo
 
