@@ -126,17 +126,18 @@ About Machine Learning, Ensemble Learning, Bagging, Boosting, Stacking :
 
 We decided to go for the Boosting method, so we may use AdaBoosting or Gradient Boosting. 
 
-- **Why we choose Boosting ?** 
-> The choice between the 3 methods depend on what we want to optimize (see the Bias-variance tradeoff). With parrallelism, Bagging aim to decrease variance. It is best suitable for high variance low bias models. On the other hand, with sequential ensemble, Boosting aim to decrease bias and is suitable for low variance high bias models.
 
 - **What is variance ?**
 > Variance is the variability of model prediction for a given data point or a value which tells us spread of our data. Model with high variance pays a lot of attention to training data and does not generalize on the data which it hasn’t seen before. As a result, such models perform very well on training data but has high error rates on test data. (*source : [Understanding the Bias-Variance Tradeoff](https://towardsdatascience.com/understanding-the-bias-variance-tradeoff-165e6942b229)*)
 
-- **Whar is bias?**
+- **What is bias?**
 > Bias is the difference between the average prediction of our model and the correct value which we are trying to predict. Model with high bias pays very little attention to the training data and oversimplifies the model. It always leads to high error on training and test data. (*source : [Understanding the Bias-Variance Tradeoff](https://towardsdatascience.com/understanding-the-bias-variance-tradeoff-165e6942b229)*)
 
 - **How does it work ?**
 > <img src="https://miro.medium.com/max/700/1*zTgGBTQIMlASWm5QuS2UpA.jpeg">
+
+- **Why we choose Boosting ?** 
+> The choice between the 3 methods depend on what we want to optimize (see the Bias-variance tradeoff). With parrallelism, Bagging aim to decrease variance. It is best suitable for high variance low bias models. On the other hand, with sequential ensemble, Boosting aim to decrease bias and is suitable for low variance high bias models.
 
 ## Demo
 
