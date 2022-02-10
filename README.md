@@ -9,7 +9,7 @@
 
 # Machine Learning Project - M2IKSEM
 
-Project realized for the Machine Learning course of the Master 2 Informatique MIAGE at the University Paris-1 Panthéon-Sorbonne. We will use Ensemble Learning. Ensemble learning means to train multiple base learners and combine their predictions in an optimal way into a single better output. Our group composed of :
+Project realized for the Machine Learning course of the Master 2 Informatique MIAGE at the University Paris-1 Panthéon-Sorbonne. We will use Ensemble Learning. Ensemble learning means to train multiple base learners and combine their predictions in an optimal way into a single better output. Our group is composed of :
 
 - MEURIC Camille
 - BOUDRAA Inès
