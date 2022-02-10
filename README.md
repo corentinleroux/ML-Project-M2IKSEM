@@ -17,7 +17,7 @@ Project realized for the Machine Learning course of the Master 2 Informatique MI
 - CHAKHCHOUKH Lina
   
 
-## Technologies (a update)
+## Technologies
 
 ![Python](https://img.shields.io/badge/Python-3.X.X-success)  ![Jupyter](https://img.shields.io/badge/Jupiter%20Notebook-6.0.1-blue) 
 
@@ -123,7 +123,7 @@ About Machine Learning, Ensemble Learning, Bagging, Boosting, Stacking :
 - [Les méthodes ensemblistes pour algorithmes de machine learning](https://blog.octo.com/les-methodes-ensemblistes-pour-algorithmes-de-machine-learning/)
 - [Bias–variance tradeoff](https://en.wikipedia.org/wiki/Bias–variance_tradeoff)
 
-## Method
+## Choice of method
 
 We decided to go for the Boosting method, so we may use AdaBoosting or Gradient Boosting. 
 
