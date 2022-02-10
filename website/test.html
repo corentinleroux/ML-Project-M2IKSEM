@@ -1,0 +1,40 @@
+<head>
+  <meta charset="UTF-8">
+  <title>Will You Divorce</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link type="text/css" rel="stylesheet" href="./style.css">
+  
+</head>
+
+<body>
+ <div class="login">
+	<h1>Will you divorce ?</h1>
+	<h3>Answer the question</h3>
+	<p> Questions are ranked on a scale of 1-5 with 1 being the lowest and 5 being the highest. </p>
+
+     <!-- Form to enter new data for predictions  -->
+    <form action="/predict"method="POST">
+        <input name="q1" placeholder=" If one of us apologizes when our discussion deteriorates, the discussion ends." required="required" type="number" min="1" max="5"  step="1"/><br>
+    	<input name="sex" placeholder="Sex" required="required" type="number" min="1" max="5"  step="1" /><br>
+        <input name="bmi" placeholder="BMI" required="required" type="number" min="1" max="5"  step="1" /><br>
+        <input name="children" placeholder="Children" required="required" type="number" min="1" max="5"  step="1" /><br>
+        <input name="smoker" placeholder="Smoker" required="required" type="number" min="1" max="5"  step="1" /><br>
+        <input name="region" placeholder="Region" required="required" type="number" min="1" max="5"  step="1"/><br>
+
+		<button type="submit" class="btn btn-secondary btn-block btn-large">Random value</button>
+		<br>
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+  
+   
+ </div>
+ 
+
+</body>
+</html>
