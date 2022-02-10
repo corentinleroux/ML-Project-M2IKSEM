@@ -19,9 +19,9 @@ Project realized for the Machine Learning course of the Master 2 Informatique MI
 
 ## Technologies (a update)
 
-https://shields.io/category/monitoring.
+![Python](https://img.shields.io/badge/Python-3.X.X-success)  ![Jupyter](https://img.shields.io/badge/Jupiter%20Notebook-6.0.1-blue) 
 
-![Python](https://img.shields.io/badge/Python-3.X.X-success)  ![Jupyter](https://img.shields.io/badge/Jupiter%20Notebook-6.0.1-blue)
+![scikit](https://img.shields.io/badge/scikit--learn-0.21-orange) ![pandas](https://img.shields.io/badge/pandas-0.25-orange) ![numpy](https://img.shields.io/badge/numpy-1.17-orange) ![seaborn](https://img.shields.io/badge/seaborn-0.9-orange)
 
 
 ## Installation guide
