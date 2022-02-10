@@ -144,7 +144,8 @@ We decided to try both the **Boosting method** and the **Bagging method** to see
 
 ## Results
 
-> Some results paragraph and tables 
+> Some results paragraph and tables
+ 
 | Size | 6  | 8 | 10 | 11 | 12 |
 | :---:   | :-: | :-: | :-: | :-: | :-: |
 | 1st tentative | 0.25s | 3.32s | 24.52s | 6.87s | 571.81s |
