@@ -17,6 +17,8 @@ Groupe constitué de :
 
 ## Technologies (a update)
 
+https://shields.io/category/monitoring
+
 ![Quasar](https://img.shields.io/badge/Quasar-2.1.15-brightgreen)   ![Typescript](https://img.shields.io/badge/Typescript-3.9.5-brightgreen)
  ![Vue](https://img.shields.io/badge/Vue-2.6.12-blue)   ![Vuex](https://img.shields.io/badge/Vuex-3.6.0-blue) ![VueRouter](https://img.shields.io/badge/VueRouter-3.1.3-blue)
  
