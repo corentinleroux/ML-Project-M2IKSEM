@@ -20,7 +20,7 @@ https://shields.io/category/monitoring
 ![Python](https://img.shields.io/badge/Python-3.X.X-success)  
 
 
-## Installation guide (a update) 
+## Installation guide
 
 - If you dont have Python : [Install it](https://www.python.org/downloads/)
 -  `$ sudo apt update -y`
