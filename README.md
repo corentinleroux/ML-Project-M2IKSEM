@@ -25,13 +25,13 @@ https://shields.io/category/monitoring
 ![ESLint](https://img.shields.io/badge/eslint-6.8.0-orange) ![Node](https://img.shields.io/badge/Node-10.18.1-orange) 
 
 ![JointJS](https://img.shields.io/badge/JointJS-3.3.1-yellow)  ![DiagramVue](https://img.shields.io/badge/DiagramVue-0.3.2-yellow) 
-## Installation (a update) 
+## Installation guide (a update) 
 
 - Si vous ne possèdez pas Python 3 : blablabla 
 - `gh repo clone corentinleroux/ML-Project-M2IKSEM`
 
         
-## Lancer le projet 
+## Run the project
 
 Lancez `jupyter notebook` pour exécuter le projet. 
 
