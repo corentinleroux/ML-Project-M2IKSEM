@@ -49,9 +49,8 @@ We took the dataset on Kaggle : [Kaggle](https://www.kaggle.com/csafrit2/predict
   
 Questions are ranked on a scale of 1-5 with 1 being the lowest and 5 being the highest. The last category states if the couple has divorced.
 
-1.	If one of us apologizes when our discussion deteriorates, the discussion ends.
-2.	I know we can ignore our differences, even if things get hard sometimes.
-3.	When we need it, we can take our discussions with my spouse from the beginning and correct it.
+- If one of us apologizes when our discussion deteriorates, the discussion ends.
+- I know we can ignore our differences, even if things get hard sometimes.When we need it, we can take our discussions with my spouse from the beginning and correct it.
 4.	When I discuss with my spouse, to contact him will eventually work.
 5.	The time I spent with my wife is special for us.
 6.	We don't have time at home as partners.
