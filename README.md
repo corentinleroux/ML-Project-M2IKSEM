@@ -1,11 +1,15 @@
 <p align="center">
   <img src="https://study-eu.s3.amazonaws.com/uploads/university/universit--paris-1-panth-on-sorbonne-479-logo.png">
 </p>
+<p align="center">
+  <img src="https://images.squarespace-cdn.com/content/v1/5a37d32fbce1765b74b2f6b2/1528477847075-CUX2PFJFGA36B1NBQR2D/divorce.png?format=750w" width="150">
+</p>
+
 
 
 # Machine Learning Project - M2IKSEM
 
-Project realized for the Machine Learning course of the Master 2 Informatique MIAGE at the University Paris-1 Panthéon-Sorbonne. We will use Ensemble Learning. Ensemble learning means to train multiple base learners and combine their predictions in an optimal way into a single better output. Our group composed of :
+Project realized for the Machine Learning course of the Master 2 Informatique MIAGE at the University Paris-1 Panthéon-Sorbonne. We will use Ensemble Learning. Ensemble learning means to train multiple base learners and combine their predictions in an optimal way into a single better output. Our group is composed of :
 
 - MEURIC Camille
 - BOUDRAA Inès
@@ -113,8 +117,10 @@ About Dataset :
 
 About Machine Learning, Ensemble Learning, Bagging, Boosting, Stacking :
 
-- https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205
-- https://towardsdatascience.com/ensemble-learning-bagging-boosting-3098079e5422
+- [Ensemble machine learning: methods and applications](https://link.springer.com/content/pdf/10.1007/978-1-4419-9326-7.pdf)
+- [Ensemble methods: bagging, boosting and stacking](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205)
+- [Ensemble Learning: Bagging & Boosting](https://towardsdatascience.com/ensemble-learning-bagging-boosting-3098079e5422)
+- [Les méthodes ensemblistes pour algorithmes de machine learning](https://blog.octo.com/les-methodes-ensemblistes-pour-algorithmes-de-machine-learning/)
 
 ## Demo
 
