@@ -5,9 +5,7 @@
 
 # Machine Learning Project - M2IKSEM
 
-Project realized for the Machine Learning course of the Master 2 Informatique MIAGE at the University Paris-1 Panthéon-Sorbonne.
-
-Group composed of :
+Project realized for the Machine Learning course of the Master 2 Informatique MIAGE at the University Paris-1 Panthéon-Sorbonne. We will use **Ensemble Learning**. Ensemble learning means to train multiple base learners and combine their predictions in an optimal way into a single better output. Our group composed of :
 
 - MEURIC Camille
 - BOUDRAA Inès
@@ -27,7 +25,13 @@ https://shields.io/category/monitoring
 ![JointJS](https://img.shields.io/badge/JointJS-3.3.1-yellow)  ![DiagramVue](https://img.shields.io/badge/DiagramVue-0.3.2-yellow) 
 ## Installation guide (a update) 
 
-- Si vous ne possèdez pas Python 3 : blablabla 
+- If you dont have Python : [Install it](https://www.python.org/downloads/)
+-  `$ sudo apt update -y`
+-  `$ sudo apt install python3.9` or `brew install python@3.9`
+-  `$ pip3 install ipython`
+-  `$ pip3 install jupyter`
+-  `$ pip3 install pandas`
+-  `$ pip3 install scikit-learn`
 - `gh repo clone corentinleroux/ML-Project-M2IKSEM`
 
         
@@ -40,9 +44,11 @@ Lancez `jupyter notebook` pour exécuter le projet.
 We took the dataset on Kaggle : [Kaggle](https://www.kaggle.com/csafrit2/predicting-divorce).
 
 <details>
-  <summary>Click here to see the list of questions</summary>
+  <summary>Click here to see the list of questions used to create the dataset</summary>
+ -----
   
-  
+Questions are ranked on a scale of 1-5 with 1 being the lowest and 5 being the highest. The last category states if the couple has divorced.
+
 1.	If one of us apologizes when our discussion deteriorates, the discussion ends.
 2.	I know we can ignore our differences, even if things get hard sometimes.
 3.	When we need it, we can take our discussions with my spouse from the beginning and correct it.
