@@ -5,10 +5,9 @@
 
 # Machine Learning Project - M2IKSEM
 
-Projet réalisé dans le cadre du Master 2 Informatique MIAGE à l'Université Paris-1 Panthéon-Sorbonne. 
+Project realized for the Machine Learning course of the Master 2 Informatique MIAGE at the University Paris-1 Panthéon-Sorbonne.
 
-
-Groupe constitué de : 
+Group composed of :
 
 - MEURIC Camille
 - BOUDRAA Inès
@@ -43,6 +42,6 @@ https://www.mockaroo.com/cc3b3170
 ## Demo
 
 
-Une démonstration est disponible sur Youtube à l'adresse suivante :  [Youtube - Demonstration](https://youtu.be/Gebm9YGn4Lg)
+A demo is available at the following link :  [Youtube - Demonstration](https://youtu.be/Gebm9YGn4Lg)
 
 [![Demonstration](https://res.cloudinary.com/marcomontalbano/image/upload/v1615936689/video_to_markdown/images/youtube--Gebm9YGn4Lg-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/Gebm9YGn4Lg "Presentation")
