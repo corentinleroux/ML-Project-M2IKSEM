@@ -113,8 +113,8 @@ About Dataset :
 
 About Machine Learning, Ensemble Learning, Bagging, Boosting, Stacking :
 
-- https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205
-- https://towardsdatascience.com/ensemble-learning-bagging-boosting-3098079e5422
+- [Ensemble methods: bagging, boosting and stacking](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205)
+- [Ensemble Learning: Bagging & Boosting](https://towardsdatascience.com/ensemble-learning-bagging-boosting-3098079e5422)
 
 ## Demo
 
