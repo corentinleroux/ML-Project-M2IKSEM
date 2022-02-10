@@ -125,7 +125,7 @@ About Machine Learning, Ensemble Learning, Bagging, Boosting, Stacking :
 
 ## Choice of method
 
-We decided to go for the Boosting method, so we may use AdaBoosting or Gradient Boosting. 
+We decided to try both the Boosting method and the Bagging method to see which one fit the most our ML Project.  
 
 
 - **What is variance ?**
@@ -139,7 +139,7 @@ We decided to go for the Boosting method, so we may use AdaBoosting or Gradient 
 > 
 > (*source : [Ensemble Learning: Bagging & Boosting](https://towardsdatascience.com/ensemble-learning-bagging-boosting-3098079e5422)*)
 
-- **Why we choose Boosting ?** 
+- **What is the difference ?** 
 > The choice between the 3 methods depend on what we want to optimize (see the Bias-variance tradeoff). With parrallelism, Bagging aim to decrease variance. It is best suitable for high variance low bias models. On the other hand, with sequential ensemble, Boosting aim to decrease bias and is suitable for low variance high bias models.
 
 ## Demo
