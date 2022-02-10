@@ -110,4 +110,4 @@ Questions are ranked on a scale of 1-5 with 1 being the lowest and 5 being the h
 
 A demo is available at the following link :  [Youtube - Demonstration](https://youtu.be/Gebm9YGn4Lg)
 
-[![Demonstration](https://res.cloudinary.com/marcomontalbano/image/upload/v1615936689/video_to_markdown/images/youtube--Gebm9YGn4Lg-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/Gebm9YGn4Lg "Presentation")
+[![Demonstration](https://www.cmete.com/skins/theme_cmete_2016/images/placeholders/image-placeholder.jpg)](https://youtu.be/Gebm9YGn4Lg "Presentation")
