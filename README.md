@@ -33,6 +33,7 @@ https://shields.io/category/monitoring
 -  `$ pip3 install jupyter`
 -  `$ pip3 install pandas`
 -  `$ pip3 install scikit-learn`
+-  `conda install -c conda-forge missingno` or `conda install -c conda-forge/label/gcc7 missingno`
 - `gh repo clone corentinleroux/ML-Project-M2IKSEM`
 
         
