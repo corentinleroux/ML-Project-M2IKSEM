@@ -1,6 +1,10 @@
 <p align="center">
   <img src="https://study-eu.s3.amazonaws.com/uploads/university/universit--paris-1-panth-on-sorbonne-479-logo.png">
 </p>
+<p align="center">
+  <img src="https://images.squarespace-cdn.com/content/v1/5a37d32fbce1765b74b2f6b2/1528477847075-CUX2PFJFGA36B1NBQR2D/divorce.png?format=750w" width="200">
+</p>
+
 
 
 # Machine Learning Project - M2IKSEM
