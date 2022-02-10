@@ -117,6 +117,7 @@ About Dataset :
 
 About Machine Learning, Ensemble Learning, Bagging, Boosting, Stacking :
 
+- [Ensemble machine learning: methods and applications](https://link.springer.com/content/pdf/10.1007/978-1-4419-9326-7.pdf)
 - [Ensemble methods: bagging, boosting and stacking](https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205)
 - [Ensemble Learning: Bagging & Boosting](https://towardsdatascience.com/ensemble-learning-bagging-boosting-3098079e5422)
 - [Les méthodes ensemblistes pour algorithmes de machine learning](https://blog.octo.com/les-methodes-ensemblistes-pour-algorithmes-de-machine-learning/)
