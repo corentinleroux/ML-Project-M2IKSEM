@@ -19,9 +19,9 @@ Project realized for the Machine Learning course of the Master 2 Informatique MI
 
 ## Technologies (a update)
 
-https://shields.io/category/monitoring
+https://shields.io/category/monitoring.
 
-![Python](https://img.shields.io/badge/Python-3.X.X-success)  
+![Python](https://img.shields.io/badge/Python-3.X.X-success)  ![Jupyter](https://img.shields.io/badge/Jupiter%20Notebook-6.0.1-blue)
 
 
 ## Installation guide
