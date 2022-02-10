@@ -125,7 +125,7 @@ About Machine Learning, Ensemble Learning, Bagging, Boosting, Stacking :
 
 ## Choice of method
 
-We decided to try both the Boosting method and the Bagging method to see which one fit the most our ML Project.  
+We decided to try both the **Boosting method** and the **Bagging method** to see which one fit the most our ML Project.  
 
 
 - **What is variance ?**
@@ -141,6 +141,17 @@ We decided to try both the Boosting method and the Bagging method to see which o
 
 - **What is the difference ?** 
 > The choice between the 3 methods depend on what we want to optimize (see the Bias-variance tradeoff). With parrallelism, Bagging aim to decrease variance. It is best suitable for high variance low bias models. On the other hand, with sequential ensemble, Boosting aim to decrease bias and is suitable for low variance high bias models.
+
+## Results
+
+> Some results paragraph and tables 
+> | Size | 6  | 8 | 10 | 11 | 12 |
+> | :---:   | :-: | :-: | :-: | :-: | :-: |
+> | 1st tentative | 0.25s | 3.32s | 24.52s | 6.87s | 571.81s |
+> | 2nd tentative | 0.18s | 4.06s | 25.76s | 6.33s | 610.14s |
+> | 3d tentative | 0.18s | 3.15s | 23.37s | 6.99s | 609.57s |
+> | Average | 0.20s | 3.51s | 24.55s | 6.73s | 597.17s |
+> | Multiplier | 1 | 18 | 123 | 34 | 2 986 |
 
 ## Demo
 
