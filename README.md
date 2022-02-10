@@ -105,6 +105,17 @@ Questions are ranked on a scale of 1-5 with 1 being the lowest and 5 being the h
 55. Divorce Y/N 
 </details>
 
+## References 
+
+About Dataset : 
+
+- [Divorce Prediction Using Correlation Based Feature Selection And Artificial Neural Networks](https://www.researchgate.net/publication/334170931_DIVORCE_PREDICTION_USING_CORRELATION_BASED_FEATURE_SELECTION_AND_ARTIFICIAL_NEURAL_NETWORKS)
+
+About Machine Learning, Ensemble Learning, Bagging, Boosting, Stacking :
+
+- https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205
+- https://towardsdatascience.com/ensemble-learning-bagging-boosting-3098079e5422
+
 ## Demo
 
 
