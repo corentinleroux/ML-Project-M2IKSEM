@@ -17,13 +17,9 @@ Project realized for the Machine Learning course of the Master 2 Informatique MI
 
 https://shields.io/category/monitoring
 
-![Quasar](https://img.shields.io/badge/Quasar-2.1.15-brightgreen)   ![Typescript](https://img.shields.io/badge/Typescript-3.9.5-brightgreen)
- ![Vue](https://img.shields.io/badge/Vue-2.6.12-blue)   ![Vuex](https://img.shields.io/badge/Vuex-3.6.0-blue) ![VueRouter](https://img.shields.io/badge/VueRouter-3.1.3-blue)
- 
-![Firebase](https://img.shields.io/badge/Firebase-8.3.0-red) 
-![ESLint](https://img.shields.io/badge/eslint-6.8.0-orange) ![Node](https://img.shields.io/badge/Node-10.18.1-orange) 
+![Python](https://img.shields.io/badge/Python-3.X.X-success)  
 
-![JointJS](https://img.shields.io/badge/JointJS-3.3.1-yellow)  ![DiagramVue](https://img.shields.io/badge/DiagramVue-0.3.2-yellow) 
+
 ## Installation guide (a update) 
 
 - If you dont have Python : [Install it](https://www.python.org/downloads/)
