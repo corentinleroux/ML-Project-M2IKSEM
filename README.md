@@ -134,7 +134,7 @@ We decided to go for the Boosting method, so we may use AdaBoosting or Gradient 
 > Bias is the difference between the average prediction of our model and the correct value which we are trying to predict. Model with high bias pays very little attention to the training data and oversimplifies the model. It always leads to high error on training and test data. (*source : [Understanding the Bias-Variance Tradeoff](https://towardsdatascience.com/understanding-the-bias-variance-tradeoff-165e6942b229)*)
 
 - **How does it work ?**
-> <img src="https://miro.medium.com/max/700/1*zTgGBTQIMlASWm5QuS2UpA.jpeg">
+> <img src="https://miro.medium.com/max/700/1*zTgGBTQIMlASWm5QuS2UpA.jpeg" width="500">
 
 - **Why we choose Boosting ?** 
 > The choice between the 3 methods depend on what we want to optimize (see the Bias-variance tradeoff). With parrallelism, Bagging aim to decrease variance. It is best suitable for high variance low bias models. On the other hand, with sequential ensemble, Boosting aim to decrease bias and is suitable for low variance high bias models.
