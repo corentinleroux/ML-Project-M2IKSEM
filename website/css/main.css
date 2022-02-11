@@ -802,4 +802,66 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: inherit;
+}
+
+.buttonrandom {
+  font-family: inherit;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 14px;
+  letter-spacing: 4px;
+  position: relative;
+  background-color: #6763a7;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  transition-duration: 0.4s;
+  overflow: hidden;
+  box-shadow: 0 5px 15px #193047;
+  border-radius: 4px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+.buttonrandom:hover {
+  background: #fff;
+  box-shadow: 0px 2px 10px 5px #c0c3d9;
+  color: #000;
+}
+
+.buttonrandom:after {
+  content: "";
+  background: #c0c3d9;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.buttonrandom:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+.buttonrandom:focus { outline:0; }
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
