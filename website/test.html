@@ -1,22 +1,33 @@
 <head>
   <meta charset="UTF-8">
-  <title>Will You Divorce</title>
-  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
-<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
-<link type="text/css" rel="stylesheet" href="./style.css">
+  <title>Should You Divorce</title>
+<!-- Icons font CSS-->
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+    <!-- Vendor CSS-->
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet" media="all">
+
+    <!-- Main CSS-->
+    <link href="css/main.css" rel="stylesheet" media="all">
   
 </head>
 <body>
 
 
+ <div class="page-wrapper bg-gra-03 p-t-45 p-b-50">
+        <div class="wrapper wrapper--w790">
+            <div class="card card-5">
+                <div class="card-heading">
+                    <h2 class="title">Should you divorce ?</h2>
+                    <h3 class="title" style="color:white;font-size:16px;" >Answer the questions</h3>
+	<p class="title" style="color:white;font-size:12px;"> Questions are ranked on a scale of 1-5 with 1 being the lowest and 5 being the highest. </p>
+                </div>
+                <div class="card-body">
 <div class="container">
-
-	<h1>Will you divorce ?</h1>
-	<h3>Answer the questions</h3>
-	<p> Questions are ranked on a scale of 1-5 with 1 being the lowest and 5 being the highest. </p>
-
 	<form action="/predict"method="POST">
 		<div class="field" tabindex="1">
 			<label for="Q1"> 1. If one of us apologizes when our discussion deteriorates, the discussion ends </label>
@@ -128,11 +139,11 @@
 		    <label for="Q54"> 54. I'm not afraid to tell my spouse about her/his incompetence. </label>
 			<input name="Q54" type="number" placeholder="1 to 5" required min="1" max="5"> </br>
 		</div>
-		<button type="submit" class="btn btn-primary btn-block btn-large">Fill with random</button>
-		<button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+		<button type="submit" class="btn btn--radius-2 btn--red" >Fill with random</button>
+		<button type="submit" class="btn btn--radius-2 btn--blue">Predict</button>
 		
 	</form>
-</div>
+</div></div></div></div></div>
 
 </body>
 </html>
