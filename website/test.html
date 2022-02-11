@@ -10,31 +10,25 @@
 </head>
 
 <body>
- <div class="login">
+
+
+<div class="container">
+
 	<h1>Will you divorce ?</h1>
-	<h3>Answer the question</h3>
+	<h3>Answer the questions</h3>
 	<p> Questions are ranked on a scale of 1-5 with 1 being the lowest and 5 being the highest. </p>
 
-     <!-- Form to enter new data for predictions  -->
-    <form action="/predict"method="POST">
-        <input name="q1" placeholder=" If one of us apologizes when our discussion deteriorates, the discussion ends." required="required" type="number" min="1" max="5"  step="1"/><br>
-    	<input name="sex" placeholder="Sex" required="required" type="number" min="1" max="5"  step="1" /><br>
-        <input name="bmi" placeholder="BMI" required="required" type="number" min="1" max="5"  step="1" /><br>
-        <input name="children" placeholder="Children" required="required" type="number" min="1" max="5"  step="1" /><br>
-        <input name="smoker" placeholder="Smoker" required="required" type="number" min="1" max="5"  step="1" /><br>
-        <input name="region" placeholder="Region" required="required" type="number" min="1" max="5"  step="1"/><br>
+	<form action="/predict"method="POST">
+		<div class="field" tabindex="1">
+			<label for="Q1"> 1. If one of us apologizes when our discussion deteriorates, the discussion ends </label>
+			<input name="Q1" type="number" placeholder="1 to 5" required min="1" max="5">
+		</div>
+		    <label for="Q2"> 2. I know we can ignore our differences, even if things get hard sometimes. </label>
+			<input name="Q2" type="number" placeholder="1 to 5" required min="1" max="5">
+		</div>
+	</form>
+</div>
 
-		<button type="submit" class="btn btn-secondary btn-block btn-large">Random value</button>
-		<br>
-        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
-    </form>
-
-   <br>
-   <br>
-  
-   
- </div>
- 
 
 </body>
 </html>
