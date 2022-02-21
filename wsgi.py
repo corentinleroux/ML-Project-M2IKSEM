@@ -1,4 +1,4 @@
-from app.main import app
+from website.app import app
 import os 
 
 port = int(os.environ.get("PORT", 5000))
