@@ -1,1 +1,1 @@
-worker: python website/app.py
+web: python website/app.py
