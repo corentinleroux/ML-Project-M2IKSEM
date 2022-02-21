@@ -10,7 +10,6 @@ def home():
 if __name__ == '__main__':
     app.run(debug=True)
 
-"""
 model = load_model('model_divorce')
 cols = ['Sorry_end', 'Ignore_diff', 'begin_correct', 'Contact', 'Special_time',
        'No_home_time', '2_strangers', 'enjoy_holiday', 'enjoy_travel',
@@ -26,7 +25,6 @@ cols = ['Sorry_end', 'Ignore_diff', 'begin_correct', 'Contact', 'Special_time',
        'silence_for_harm', 'silence_fear_anger', "I'm_right", 'accusations',
        "I'm_not_guilty", "I'm_not_wrong", 'no_hesitancy_inadequate',
        "you're_inadequate", 'incompetence']
-
 
 @app.route('/predict',methods=['POST'])
 def predict():
@@ -46,4 +44,3 @@ def predict_api():
     prediction = predict_model(model, data=data_unseen)
     output = prediction. Label[0]
     return jsonify(output)
-"""
