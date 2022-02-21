@@ -748,16 +748,16 @@ input {
 
 
 .subtitle, .subsubtitle {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   text-align: center;
   color: white;
-  font-family: "Dosis", Helvetica, Arial, sans-serif;
-  margin:5px;
+  font-family: "DosisRegular", Helvetica, Arial, sans-serif;
+  margin:10px;
 }
 
 .subsubtitle {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   font-style:italic;
   font-family: "DosisRegular", Helvetica, Arial, sans-serif;
@@ -894,6 +894,7 @@ input[type=number] {
     text-align :center;
     font-weight: 700;
     color:white;
-    font-size: 54;
+    font-size: 48px;
     text-shadow: 2px 4px 20px #924df9;
+    margin-bottom:10px;
 }
