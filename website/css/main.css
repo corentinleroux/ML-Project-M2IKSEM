@@ -2,6 +2,16 @@
 /* ==========================================================================
    #FONT
    ========================================================================== */
+@font-face {
+ font-family: "Dosis";
+ src: url("font/Dosis-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+ font-family: "DosisRegular";
+ src: url("font/Dosis-Regular.ttf") format("truetype");
+}
+
 .font-robo {
   font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
 }
@@ -205,6 +215,7 @@ hr,
 fieldset, legend {
   margin: 0;
   padding: 0;
+  font-family: "DosisRegular", Helvetica, Arial, sans-serif;
 }
 
 /**
@@ -619,6 +630,8 @@ input {
   color: #555;
   font-size: 15px;
   font-weight: 700;
+  font-family: "DosisRegular", Helvetica, Arial, sans-serif;
+
 }
 
 .label--block {
@@ -732,26 +745,23 @@ input {
 /* ==========================================================================
    #TITLE
    ========================================================================== */
-.title {
-  font-size: 36px;
-  text-transform: uppercase;
-  font-weight: 700;
-  text-align: center;
-  color: #6763a7;
-}
+
 
 .subtitle, .subsubtitle {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   text-align: center;
-  color: #213a52;
-  margin:5px;
+  color: white;
+  font-family: "DosisRegular", Helvetica, Arial, sans-serif;
+  margin:10px;
 }
 
 .subsubtitle {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 400;
   font-style:italic;
+  font-family: "DosisRegular", Helvetica, Arial, sans-serif;
+
 }
 
 /* ==========================================================================
@@ -776,7 +786,7 @@ input {
 
 .card-5 .card-heading {
   padding: 20px 0;
-  background: #e6e6fa;
+  background: #333;
   -webkit-border-top-left-radius: 10px;
   -moz-border-radius-topleft: 10px;
   border-top-left-radius: 10px;
@@ -788,6 +798,7 @@ input {
 .card-5 .card-body {
   padding: 52px 85px;
   padding-bottom: 73px;
+  font-family: "DosisRegular", Helvetica, Arial, sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -806,7 +817,7 @@ input {
 }
 
 .buttonrandom {
-  font-family: inherit;
+  font-family: "Dosis", Helvetica, Arial, sans-serif;
   text-align: center;
   text-transform: uppercase;
   cursor: pointer;
@@ -834,6 +845,7 @@ input {
 
 .buttonrandom:after {
   content: "";
+
   background: #c0c3d9;
   display: block;
   position: absolute;
@@ -864,4 +876,25 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+}
+
+.prediction {
+    font-family: "Dosis", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-align :center;
+    font-weight: 700;
+    color:white;
+    font-size: 32;
+    text-shadow: 2px 4px 20px #924df9;
+}
+.title {
+    display: block;
+    font-family: "Dosis", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    text-align :center;
+    font-weight: 700;
+    color:white;
+    font-size: 48px;
+    text-shadow: 2px 4px 20px #924df9;
+    margin-bottom:10px;
 }
