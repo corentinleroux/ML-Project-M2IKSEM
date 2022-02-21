@@ -4,12 +4,13 @@ import pickle
 import numpy as np
 
 app = Flask(__name__)
-@app.route('/')
+@app.route('/home')
 def home():
-    return render_template('test.html')
+    return render_template('home.html')
 if __name__ == '__main__':
     app.run(debug=True)
 
+"""
 model = load_model('model_divorce')
 cols = ['Sorry_end', 'Ignore_diff', 'begin_correct', 'Contact', 'Special_time',
        'No_home_time', '2_strangers', 'enjoy_holiday', 'enjoy_travel',
@@ -44,3 +45,4 @@ def predict_api():
     prediction = predict_model(model, data=data_unseen)
     output = prediction. Label[0]
     return jsonify(output)
+"""
