@@ -157,7 +157,7 @@ We decided to try both the **Boosting method** and the **Bagging method** to see
 | Classification | Accuracy (%) |
 | :---:   | :-: | 
 | Bagging | 0.96 |
-| Boosting | 0.96 | 
+| Gradient Boosting | 0.96 | 
 | Stacking | 0.95 |
 | Random Forest | 0.98 | 
 | AdaBoost | 0.98 | 
