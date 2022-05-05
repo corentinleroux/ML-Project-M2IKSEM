@@ -167,6 +167,9 @@ A demo is available at the following link :  [Youtube - Demonstration](https://y
 
 [![Demonstration](https://i.ibb.co/vX2LxSf/Capture-d-cran-2022-05-05-13-50-35.png)](https://youtu.be/dkttPtbD614 "Website Demo")
 
+Should give answer to stay together : 
+
+`0 0 0 0 0 0 0 1 0 0 0 1 1 1 0 0 0 0 0 1 1 0 1 1 0 0 0 0 0 0 1 3 0 0 0 0 0 0 0 0 0 2 2 0 1 3 4 4 0 1 3 3 3 1`
 
 ### Notebooks
 A demo is available at the following link :  [Youtube - Demonstration](https://youtu.be/Gebm9YGn4Lg)
