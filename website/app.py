@@ -7,7 +7,7 @@ from IPython.display import display
 import sys
 import random 
 
-divorce = ["You should have listen to your mom. Divorce", "Sorry to say but their is no chance for you. Divorce"]
+divorce = ["You should have listen to your mom. Divorce", "Sorry to say but there is no chance for you. Divorce"]
 not_divorce = ["You should stay together", "All fine, stay together", "How dare you have any doubts"]
 
 app = Flask(__name__)
