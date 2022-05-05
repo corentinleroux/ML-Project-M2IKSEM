@@ -37,9 +37,15 @@ Project realized for the Machine Learning course of the Master 2 Informatique MI
 - `gh repo clone corentinleroux/ML-Project-M2IKSEM`
 
         
-## Run the project
+## Run the notebooks
 
-Lancez `jupyter notebook` pour exécuter le projet. 
+Use `jupyter notebook` to run the interface for Notebooks.  
+
+## Run the website
+
+Go to website folder and run `flask run` 
+
+For the development mod, run `FLASK_APP=app.py FLASK_ENV=development flask run`
 
 ## Dataset
 
@@ -145,14 +151,6 @@ We decided to try both the **Boosting method** and the **Bagging method** to see
 ## Results
 
 > Some results paragraph and tables
- 
-| Size | 6  | 8 | 10 | 11 | 12 |
-| :---:   | :-: | :-: | :-: | :-: | :-: |
-| 1st tentative | 0.25s | 3.32s | 24.52s | 6.87s | 571.81s |
-| 2nd tentative | 0.18s | 4.06s | 25.76s | 6.33s | 610.14s |
-| 3d tentative | 0.18s | 3.15s | 23.37s | 6.99s | 609.57s |
-| Average | 0.20s | 3.51s | 24.55s | 6.73s | 597.17s |
-| Multiplier | 1 | 18 | 123 | 34 | 2 986 |
 
 | Classification | Accuracy (%) |
 | :---:   | :-: | 
