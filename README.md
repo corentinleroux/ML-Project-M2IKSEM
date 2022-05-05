@@ -154,6 +154,15 @@ We decided to try both the **Boosting method** and the **Bagging method** to see
 | Average | 0.20s | 3.51s | 24.55s | 6.73s | 597.17s |
 | Multiplier | 1 | 18 | 123 | 34 | 2 986 |
 
+| Classification | Accuracy (%) |
+| :---:   | :-: | 
+| Bagging | 0.96 |
+| Gradient Boosting | 0.96 | 
+| Stacking | 0.95 |
+| Random Forest | 0.98 | 
+| AdaBoost | 0.98 | 
+| KNN | 0.98 |
+
 ## Demo
 
 
