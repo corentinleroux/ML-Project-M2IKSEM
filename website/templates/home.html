@@ -152,8 +152,11 @@ function googleTranslateElementInit() {
 		    <label class="name" for="Q54"> 54. I'm not afraid to tell my spouse about her/his incompetence. </label>
 			<input name="Q54" id="Q54" type="number" class="input--style-5" placeholder="0 to 4" required min="0" max="4"> </br>
 </div>
-		<div class="buttoncontainer"> <button type="button" onclick="setRandomValue()" class="buttonrandom" >Fill with random * </button>
-		 <button type="submit" class="buttonrandom" >Predict</button></div>
+		<div class="buttoncontainer"> 
+			<button type="button" onclick="setRandomValue()" class="buttonrandom" >Fill with random * </button>
+			<button type="button" onclick="setValue1()" class="buttonrandom" >Fill with 1 </button>
+		 	<button type="submit" class="buttonrandom" >Predict</button>
+		 </div>
 		  <br>
 		  <p style="text-align: center; font-size:30px">{{output}}</p>
 	</form>
@@ -170,6 +173,15 @@ function setRandomValue(){
 	}
 	for (const element of questions) {
   		document.getElementById(element).value = Math.floor(Math.random() * 4) + 1;;
+	}
+}
+	function setValue1(){
+	let questions = [] ; 
+	for(let x=1; x <= 54 ; x++){
+		questions.push('Q'+x.toString())
+	}
+	for (const element of questions) {
+  		document.getElementById(element).value = 1;;
 	}
 }
 </script>
