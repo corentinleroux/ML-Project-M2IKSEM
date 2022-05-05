@@ -37,9 +37,14 @@ Project realized for the Machine Learning course of the Master 2 Informatique MI
 - `gh repo clone corentinleroux/ML-Project-M2IKSEM`
 
         
-## Run the project
+## Run the notebooks
 
-Lancez `jupyter notebook` pour exécuter le projet. 
+Use `jupyter notebook` to run the interface for Notebooks.  
+
+## Run the website
+
+- Go to website folder and run `flask run` 
+- For the debug mode, run `FLASK_APP=app.py FLASK_ENV=development flask run`
 
 ## Dataset
 
@@ -145,18 +150,24 @@ We decided to try both the **Boosting method** and the **Bagging method** to see
 ## Results
 
 > Some results paragraph and tables
- 
-| Size | 6  | 8 | 10 | 11 | 12 |
-| :---:   | :-: | :-: | :-: | :-: | :-: |
-| 1st tentative | 0.25s | 3.32s | 24.52s | 6.87s | 571.81s |
-| 2nd tentative | 0.18s | 4.06s | 25.76s | 6.33s | 610.14s |
-| 3d tentative | 0.18s | 3.15s | 23.37s | 6.99s | 609.57s |
-| Average | 0.20s | 3.51s | 24.55s | 6.73s | 597.17s |
-| Multiplier | 1 | 18 | 123 | 34 | 2 986 |
+
+| Classification | Accuracy (%) |
+| :---:   | :-: | 
+| Bagging | 0.96 |
+| Gradient Boosting | 0.96 | 
+| Stacking | 0.95 |
+| Random Forest | 0.98 | 
+| AdaBoost | 0.98 | 
+| KNN | 0.98 |
 
 ## Demo
 
+### Website 
+A demo is available at the following link :  [Youtube - Demonstration](https://youtu.be/dkttPtbD614)
 
-A demo is available at the following link :  [Youtube - Demonstration](https://youtu.be/Gebm9YGn4Lg)
+[![Demonstration](https://i.ibb.co/vX2LxSf/Capture-d-cran-2022-05-05-13-50-35.png)](https://youtu.be/dkttPtbD614 "Website Demo")
 
-[![Demonstration](https://www.cmete.com/skins/theme_cmete_2016/images/placeholders/image-placeholder.jpg)](https://youtu.be/Gebm9YGn4Lg "Presentation")
+Should give answer to stay together : 
+
+`0 0 0 0 0 0 0 1 0 0 0 1 1 1 0 0 0 0 0 1 1 0 1 1 0 0 0 0 0 0 1 3 0 0 0 0 0 0 0 0 0 2 2 0 1 3 4 4 0 1 3 3 3 1`
+
