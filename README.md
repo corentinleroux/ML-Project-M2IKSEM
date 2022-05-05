@@ -172,6 +172,6 @@ Should give answer to stay together :
 `0 0 0 0 0 0 0 1 0 0 0 1 1 1 0 0 0 0 0 1 1 0 1 1 0 0 0 0 0 0 1 3 0 0 0 0 0 0 0 0 0 2 2 0 1 3 4 4 0 1 3 3 3 1`
 
 ### Notebooks
-A demo is available at the following link :  [Youtube - Demonstration](https://youtu.be/Gebm9YGn4Lg)
+A demo is available at the following link :  [Youtube - Demonstration]()
 
-[![Demonstration](https://i.ibb.co/jVt0jsK/Capture-d-cran-2022-05-05-13-54-48.png)](https://youtu.be/Gebm9YGn4Lg "Presentation")
+[![Demonstration](https://i.ibb.co/jVt0jsK/Capture-d-cran-2022-05-05-13-54-48.png)]( "Presentation")
