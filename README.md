@@ -162,7 +162,12 @@ We decided to try both the **Boosting method** and the **Bagging method** to see
 
 ## Demo
 
-
+### Website 
 A demo is available at the following link :  [Youtube - Demonstration](https://youtu.be/Gebm9YGn4Lg)
 
-[![Demonstration](https://www.cmete.com/skins/theme_cmete_2016/images/placeholders/image-placeholder.jpg)](https://youtu.be/Gebm9YGn4Lg "Presentation")
+[![Demonstration](https://i.ibb.co/vX2LxSf/Capture-d-cran-2022-05-05-13-50-35.png)](https://youtu.be/Gebm9YGn4Lg "Presentation")
+
+## Notebooks
+A demo is available at the following link :  [Youtube - Demonstration](https://youtu.be/Gebm9YGn4Lg)
+
+[![Demonstration](https://i.ibb.co/vX2LxSf/Capture-d-cran-2022-05-05-13-50-35.png)](https://youtu.be/Gebm9YGn4Lg "Presentation")
