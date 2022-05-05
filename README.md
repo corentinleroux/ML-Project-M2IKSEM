@@ -43,9 +43,8 @@ Use `jupyter notebook` to run the interface for Notebooks.
 
 ## Run the website
 
-Go to website folder and run `flask run` 
-
-For the development mod, run `FLASK_APP=app.py FLASK_ENV=development flask run`
+- Go to website folder and run `flask run` 
+- For the debug mode, run `FLASK_APP=app.py FLASK_ENV=development flask run`
 
 ## Dataset
 
