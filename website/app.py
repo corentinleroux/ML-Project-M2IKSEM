@@ -18,6 +18,7 @@ def home():
         
         # Unpickle classifier
         clf = joblib.load("boosting.pkl")
+        '''
         
         # Get values through input bars
         q1 = request.form.get("Q1")
@@ -80,7 +81,21 @@ def home():
         display(X)     
         # Get prediction
         prediction = clf.predict(X)[0]
+        '''
        # prediction = "yes"
+        
+        to_predict_list = request.form.to_dict()
+        to_predict_list = list(to_predict_list.values())
+        to_predict_list = list(map(int, to_predict_list))
+        to_predict = np.array(to_predict_list).reshape(1, 54)
+        display(to_predict)
+        loaded_model = joblib.load(open("rf_clf_bagging2.pkl", 'rb'))
+        result = loaded_model.predict(to_predict)
+        print(result)
+        if result == 1 or result =="1" :
+          prediction = "You should divorce"
+        else :
+          prediction = "All fine, you can stay together"
         
     else:
         prediction = ""
