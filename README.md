@@ -45,6 +45,8 @@ Use `jupyter notebook` to run the interface for Notebooks.
 
 - Go to website folder and run `flask run` 
 - For the debug mode, run `FLASK_APP=app.py FLASK_ENV=development flask run`
+- Website is also available online at : https://shouldyoudivorceml.herokuapp.com/
+- The auto-deploiement website using Heroku and github-pages doesnt work since the big security issue encountred by both platform on April. 
 
 ## Dataset
 
