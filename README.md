@@ -151,14 +151,24 @@ We decided to try both the **Boosting method** and the **Bagging method** to see
 
 > Some results paragraph and tables
 
-| Classification | Accuracy (%) |
+| Classification | Accuracy |
 | :---:   | :-: | 
 | Bagging | 0.96 |
-| Gradient Boosting | 0.96 | 
-| Stacking | 0.95 |
 | Random Forest | 0.98 | 
+| Extra Trees | 0.98 | 
+| Gradient Boosting | 0.96 | 
 | AdaBoost | 0.98 | 
+| Stacking | 0.96 |
 | KNN | 0.98 |
+
+Here is the results from our Bagging, Boosting and Stacking Models.
+
+First, for the Bagging Model, we can see that Random Forest and Extra Trees has the same prediction test with an accuracy of 98%.
+Bagging Classifier did worst with only 96%.
+
+For the Boosting Model we can see that the Gradient Boosting Classifier did worse than the Ada Boost classifier and Ada Boost results in a higher accuracy of 98%.
+
+Stacking Model did worse than any other better method in other model, like Random Forest or Ada Boost for example. In fact, Stacking Ensemble could perform better than a single model but it’s not always the case, especially if you have very small data, like in our case. That’s why it always a good idea to check the performance of the stacking method and compare it against the performance of the individual base learners (bagging or boosting methods).
 
 ## Demo
 
